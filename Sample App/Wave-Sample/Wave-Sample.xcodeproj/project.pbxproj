@@ -24,7 +24,6 @@
 		F7A63C2D2922A68200A21E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A63C2C2922A68200A21E70 /* Assets.xcassets */; };
 		F7A63C302922A68200A21E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A63C2E2922A68200A21E70 /* Main.storyboard */; };
 		F7A63C362922A6DC00A21E70 /* Wave in Frameworks */ = {isa = PBXBuildFile; productRef = F7A63C352922A6DC00A21E70 /* Wave */; };
-		F7F2B2BF2917543100E17E44 /* DragGesture+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F2B2BE2917543100E17E44 /* DragGesture+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +47,6 @@
 		F7A63C2C2922A68200A21E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A63C2F2922A68200A21E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7A63C312922A68200A21E70 /* Wave_Sample_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wave_Sample_macOS.entitlements; sourceTree = "<group>"; };
-		F7F2B2BE2917543100E17E44 /* DragGesture+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DragGesture+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 				F731392F27E68C6900DCC56C /* InstantPanGestureRecognizer.swift */,
 				F731393327E68CAE00DCC56C /* PathView.swift */,
 				F702B19828470D3100F8D848 /* CGRect+Extensions.swift */,
-				F7F2B2BE2917543100E17E44 /* DragGesture+Extensions.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -291,7 +288,6 @@
 				F731392D27E68C1F00DCC56C /* SheetViewController.swift in Sources */,
 				F702B19928470D3100F8D848 /* CGRect+Extensions.swift in Sources */,
 				F731392E27E68C1F00DCC56C /* GridViewController.swift in Sources */,
-				F7F2B2BF2917543100E17E44 /* DragGesture+Extensions.swift in Sources */,
 				F731392C27E68C1F00DCC56C /* PictureInPictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = QPSD3KKBMU;
+				DEVELOPMENT_TEAM = 922QE82JGA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wave-Sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
@@ -464,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.janumtrivedi.Wave-Sample-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janumtrivedi.Wave-Sample-Test-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
@@ -482,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QPSD3KKBMU;
+				DEVELOPMENT_TEAM = 922QE82JGA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wave-Sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
@@ -495,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.janumtrivedi.Wave-Sample-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janumtrivedi.Wave-Sample-Test-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;

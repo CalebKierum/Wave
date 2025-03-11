@@ -11,6 +11,11 @@ import Wave
 
 struct SwiftUIView: View {
 
+    let interactiveSpring = Spring(dampingRatio: 0.8, response: 0.1)
+
+    /// A looser spring used to animate the PiP view to its final location after dragging ends.
+    let animatedSpring = Spring(dampingRatio: 0.68, response: 0.8)
+    
     let offsetAnimator = SpringAnimator<CGPoint>(spring: Spring(dampingRatio: 0.72, response: 0.7))
 
     @State var boxOffset: CGPoint = .zero
@@ -38,14 +43,16 @@ struct SwiftUIView: View {
         .gesture(
             DragGesture()
                 .onChanged { value in
+                    offsetAnimator.spring = interactiveSpring
+                    
                     // Update the animator's target to the new drag translation.
                     offsetAnimator.target = CGPoint(x: value.translation.width, y: value.translation.height)
-
-                    // Don't animate the box's position when we're dragging it.
-                    offsetAnimator.mode = .nonAnimated
+                    
                     offsetAnimator.start()
                 }
                 .onEnded { value in
+                    offsetAnimator.spring = animatedSpring
+                    
                     // Animate the box to its original location (i.e. with zero translation).
                     offsetAnimator.target = .zero
 
