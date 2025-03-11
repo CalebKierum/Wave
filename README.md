@@ -4,7 +4,7 @@
 
 ## Wave
 
-[Check out the amazing work of jtrivedi](https://github.com/jtrivedi/Wave)! This is just a fork with a few changes I wanted to make since contributions are closed. 
+[Check out the amazing work of jtrivedi](https://github.com/jtrivedi/Wave)! This is just a fork with a few changes I wanted to make since contributions to the original are closed. 
 
 ## Fixes
 
